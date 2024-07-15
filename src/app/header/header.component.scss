@@ -1,0 +1,28 @@
+.main-container {
+    padding: 10px;
+    .container1 {
+        .logo {
+            img {
+                width: 100px;
+                height: 70px;
+            }
+        }
+
+        .nav-menu {
+            justify-content: end;
+
+            ul {
+                column-gap: 20px;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                li {
+                    a {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
